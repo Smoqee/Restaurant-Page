@@ -1,0 +1,31 @@
+.about-section {
+    display: flex;
+    padding-top: 18vh;
+    justify-content: center;
+    gap: 100px;
+    height: 700px;
+}
+
+iframe {
+    border: 10px solid var(--color);
+    border-radius: 30px;
+}
+
+
+.about-section .text h1 {
+    font-size: 100px;
+    color: var(--color);
+    line-height: 90px;
+    margin-bottom: 10vh;
+}
+
+.about-section .text p {
+    font-size: 35px;
+    text-decoration: underline;
+    text-align: center;
+    color: var(--color-low);
+}
+
+.mapouter {
+    z-index: 0;
+}

@@ -1,0 +1,46 @@
+.menu-set {
+    padding: 18vh 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.menu-set h1 {
+    font-size: 80px;
+    align-self: center;
+    color: var(--color);
+
+}
+
+.menu-area {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.menu-item {
+    align-self: start;
+    display: grid;
+    grid-template-columns: 300px 650px;
+}
+
+.menu-item:nth-child(2n) {
+    justify-self: end;
+    align-self: end;
+    direction: rtl;
+}
+
+.menu-set img {
+    grid-row: 1 / 5;
+    width: 300px;
+}
+
+.menu-item h2 {
+    color: var(--color);
+    font-size: 50px;
+}
+
+.menu-item p {
+    font-size: 20px;
+    color: var(--color-low);
+}

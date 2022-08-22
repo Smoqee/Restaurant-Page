@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'b-bambuu-sushi';
+    src: url(../fonts/bBumbuSushi.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'b-bambuu-sushi';
+    --color: rgb(72, 64, 87);
+    --color-low: rgb(89, 76, 76);
+}
+
+body {
+    background-image: linear-gradient(to right, white, rgb(245, 227, 179));
+}
+
+#content {
+    display: grid;
+}
+
+
+.navigation {
+    z-index: 100;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    padding: 20px 0;
+    border-bottom: 2px solid rgba(212, 191, 152, 0.362);
+    background-image: linear-gradient(to right, white, rgb(245, 227, 179));
+
+}
+
+.navigation ul{
+    color: var(--color-low);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+
+.main-content {
+    min-height: 110vh;
+}
+
+footer {
+    padding: 20px 0;
+    border-top: 2px solid rgba(212, 191, 152, 0.362);
+    text-align: center;
+    color: var(--color-low);
+    
+}
